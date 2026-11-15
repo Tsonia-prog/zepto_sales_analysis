@@ -1,4 +1,4 @@
-:::writing{variant="document" id="82641"}
+
 # Zepto Sales Analysis | SQL & PostgreSQL
 
 ## Project Overview
