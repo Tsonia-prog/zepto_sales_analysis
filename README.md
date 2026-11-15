@@ -21,15 +21,15 @@ The dataset contains the following columns:
 
 | Column | Description |
 |---|---|
-| `product_name` | Product name |
-| `category` | Product category |
-| `city` | City associated with the record |
-| `original_price` | Original listed price |
-| `current_price` | Current listed price |
-| `discount` | Declared discount percentage |
-| `orders` | Reported order value |
-| `total_revenue` | Reported revenue value |
-| `influencer_active` | Indicates whether influencer activity is active |
+| product_name | Product name |
+| category | Product category |
+| city | City associated with the record |
+| original_price | Original listed price |
+| current_price | Current listed price |
+| discount | Declared discount percentage |
+| orders | Reported order value |
+| total_revenue | Reported revenue value |
+| influencer_active | Indicates whether influencer activity is active |
 
 **Data note:** The observation period, currency, and exact calculation rules for some fields are not documented. Order and revenue figures are therefore treated as reported values, not independently verified transactions or realized sales.
 
@@ -72,7 +72,7 @@ The main SQL skills applied include:
 - **WHERE:** Filtering records based on specific conditions.
 - **GROUP BY:** Grouping data by products, categories, and cities.
 - **ORDER BY:** Sorting results to identify top-performing products.
-- **Aggregate Functions:** Using `SUM()`, `AVG()`, `COUNT()`, `MIN()`, and `MAX()` to calculate key metrics.
+- **Aggregate Functions:** Using SUM(), AVG(), COUNT(), MIN(), and MAX() to calculate key metrics.
 - **CASE WHEN:** Identifying pricing and revenue inconsistencies.
 - **Subqueries:** Organising analytical queries.
 - **CREATE TABLE AS:** Creating a working copy of the original dataset.
@@ -202,9 +202,6 @@ Possible extensions of this project include:
 - Analysing influencer campaign performance with more detailed campaign information.
 - Exploring relationships between product prices and reported order volumes.
 - Creating additional SQL views for recurring business analyses.
-- Building an interactive dashboard using Power BI or Tableau.
-- Performing more advanced statistical analysis to explore patterns in the data.
-
 
 ## 10. Author
 Sonia Tsago
